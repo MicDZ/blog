@@ -1,0 +1,70 @@
+---
+title: 【JSOI2013】游戏中的学问 题解
+tags:
+  - 题解
+categories:
+  - - OI
+    - 题解
+date: 2020-01-30 11:48:08
+---
+
+[JSOI2013](https://www.lydsy.com/JudgeOnline/problem.php?id=4465)
+
+<!--more-->
+
+# 题目大意
+将 $n$ 个人划分到 $k$ 个圈中，每个圈中至少有三人，求本质不同的方案个数。
+
+# 核心思路
+最开始通过纯数学的推导非常麻烦。然后突然想到了之前学过的斯特林数。
+
+这不就是将第一类斯特林数与第二类斯特林数结合在一起吗？再考虑一下每个圈中至少有三人的限制即可。
+
+可以很轻松地推出递推式，设 $f_{i,j}$ 表示 $i$ 个人划分到 $j$ 个圈中的方案数。
+
+$$
+f_{i,j}=f_{i-3,j-1}(i-1)(i-2)+f_{i-1,j}(i-1)
+$$
+
+$f_{i,j}$ 可以通过新建一个圈获得，也可以将第 $i$ 个人插入到原来的 $j$ 个圈中的任何一个。
+
+# 完整代码
+
+代码就非常简短了。
+
+```cpp
+#include<iostream>
+#include<cstdio>
+#include<cstring>
+#include<cmath>
+#include<algorithm>
+#define DREP(i,e,s) for(register int i=(e); i>=(s); i--)
+
+using namespace std;
+
+#define REP(i,e,s) for(register int i=(e); i<=(s); i++)
+#define DE(...) fprintf(stderr,__VA_ARGS__)
+#define DEBUG(a) DE("DEBUG: %d\n",a)
+#define file(a) freopen(a".in","r",stdin);freopen(a".out","w",stdout)
+#define ll long long
+#define int ll
+int read() {
+	int x=0,f=1,ch=getchar();
+	while(ch>'9'||ch<'0'){if(ch=='-')f=-1;ch=getchar();}
+	while(ch>='0'&&ch<='9'){x=x*10+ch-'0';ch=getchar();}
+	return x*f;
+}
+
+const int MAXN=3000+10;
+
+int f[MAXN][MAXN];
+
+signed main() {
+	int n=read(),k=read(),p=read();
+	f[0][0]=1;
+	REP(i,1,k) REP(j,3*i,n) f[i][j]=(f[i-1][j-3]*(j-1)*(j-2)%p+(j-1)*f[i][j-1]%p)%p;
+	
+	printf("%lld\n",f[k][n]);
+	return 0;
+}
+```

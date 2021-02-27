@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='https://volantis.js.org/#2.6.6'>
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- 页面元数据 -->
+  
+    <title>2020回顾 &amp; 2021展望 - MicDZ&#39;s blog</title>
+  
+  
+    <meta name="description" content="这是一篇被加密的文章，博主不会提供密码">
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="MicDZ's blog" type="application/atom+xml">
+  
+
+  <!-- import meta -->
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
+  
+
+  
+  <link rel="shortcut icon" type='image/x-icon' href="/img/h.jpeg">
+  
+
+  
+
+  
+
+  <!-- import link -->
+  
+
+  
+  
+    
+<link rel="stylesheet" href="/css/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+	setTimeout(function() {
+	  let script = document.createElement('script');
+	  script.src = "https://www.googletagmanager.com/gtag/js?id=UA-154853174-1";
+	  script.defer=true;
+	  document.body.appendChild(script);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-154853174-1');
+	}, 5000);
+    </script>
+  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  
+  <div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
+</div>
+<header class="l_header shadow blur">
+  <div class='container'>
+  <div class='wrapper'>
+    <div class='nav-sub'>
+      <p class="title"></p>
+      <ul class='switcher nav-list-h'>
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href='/'>
+          
+            <img class='logo' src='/img/logo.png'/>
+          
+          
+            <i class='/img/logo.png'></i>
+          
+          
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='nav-list-h'>
+          
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href=/
+                  
+                  
+                  
+                    id="home"
+                  >
+                  <i class='fas fa-home fa-fw'></i>首页
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href=/friends/
+                  
+                    rel="nofollow"
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  <i class='fas fa-link fa-fw'></i>友链
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href=/about/
+                  
+                    rel="nofollow"
+                  
+                  
+                  
+                    id="about"
+                  >
+                  <i class='fas fa-info-circle fa-fw'></i>关于
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href=/atom.xml
+                  
+                  
+                  
+                    id="atomxml"
+                  >
+                  <i class='fas fa-rss fa-fw'></i>订阅
+                </a>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search..." />
+        </form>
+      </div>
+
+			<ul class='switcher nav-list-h'>
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/
+                  
+                  
+                  
+                    id="home"
+                  >
+                  <i class='fas fa-home fa-fw'></i>首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/friends/
+                  
+                    rel="nofollow"
+                  
+                  
+                  
+                    id="friends"
+                  >
+                  <i class='fas fa-link fa-fw'></i>友链
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/about/
+                  
+                    rel="nofollow"
+                  
+                  
+                  
+                    id="about"
+                  >
+                  <i class='fas fa-info-circle fa-fw'></i>关于
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href=/atom.xml
+                  
+                  
+                  
+                    id="atomxml"
+                  >
+                  <i class='fas fa-rss fa-fw'></i>订阅
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+<script>setLoadingBarProgress(40);</script>
+
+
+
+  <div class="l_body nocover">
+    <div class='body-wrapper'>
+      
+
+<div class='l_main'>
+  
+
+  
+    <article id="post" class="post white-box reveal shadow article-type-post" itemscope itemprop="blogPost">
+      
+
+
+  <section class='meta'>
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h1 class="title">
+    <a href="/article/2021-resolution/">
+      2020回顾 & 2021展望
+    </a>
+  </h1>
+
+
+        
+        <div class='new-meta-box'>
+          
+            
+          
+            
+              
+<div class='new-meta-item author'>
+  <a href="https://www.micdz.cn" rel="nofollow">
+    <img src="/img/h.jpeg">
+    <p>MicDZ</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+  
+  <div class='new-meta-item category'>
+    <a href='/categories/Review-Resoultion/' rel="nofollow">
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <p>Review & Resoultion</p>
+    </a>
+  </div>
+
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2021年1月1日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <div id="hexo-blog-encrypt" data-wpm="您输入的密码有误，请重试" data-whm="您输入的密码无法验证，您可以查看以此密码解密的文本">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">请输入文章访问密码</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="64e623890ef156bdd271e57baf1e980b6f4f4acc4fb486d5b95bb342efd41e86">0bbaac6b58214d31b64bd48a849998deba1f0edc868ef2b54b735c14994b33f929e53d3faece91f22368281f5c576472ff0a5399b9939cb6a52e9d08e8618c12b8a2fb9071bb82fa6afe9bc48042142e7a6e89958609a56159c45523c32d58f0b3fea97668ccc4b1ff4fbdc7457606316ea13a4cd40a1b4e92cf97658eb7c8955253c820e1b4515f243f431c34ff399e0706c476997b385fba3368d1d0b7d3eb0c15d3d4dea48374f59bb5f5b1eafc6f8f54c0b9aefdfe3f4e7d675a932270492d2833c9b9ef041616f2b86ecf5e2adf83541097d344a6c766284f880e95ed9261751076f13e23cb96a1015194ea82bc54294bcc4d90f0388289fda3520a33bdc627182fe50a4dca228387db761d04bc3352c3986936bda9870f2ae8a9ff95cfb5155aef032b334d82a3c9da3c365565cd154c14acb900d00b9e4e93c46b2aca9f93c880f75423b39f297f71e84f4e04383b6b546b1e898a8a74ffe8b721db058c59509b21bf73e2bd5bf5dc99d3ffc9989a7a076618eff4414a5d5afd587172e33048c5789b2867ca1be9584f13ee270bd241e6544fbeaa89c79f3505a5de691d92bf0b1c67551b26a4fbaa35a3d3a2f137420521efeb122b5c003bb7b5b3096510f396266f4d929cb1af41e1a0ab3450922a6bbb5f548b91c84ec8487938bd2a5ce49401b5b1506462fa363d572dbc8ccce15f6f86a10d3e3dd71ca6e27c278a0e0df99b7c280eefa8cfe2407f81411ea7b99a8f43442a073dd922bb90c0c89ed906e8bcf7ad87ef90702ecc0831384c7bd0f00147b1b3f27109d14e434d12f087bbd2b8efddf9d417636f6820e0ca49b70f24b8899ac8298338e4651215a90ea6992dc12b2858e4e5f66057e70178076686acf5ccffaae055183f5c1c051430ccf389487521d03fdfd8a857988503c3a492dd04b5b52cc1ca6d8453177dd752fb6f52fef5df56c79fef865b6e4d18c0d55467ebe8fa975571f0655f6ee4eae294075daa1120ab7c0a8cf923dd4d948b692c0137b317d4da2a4176cbdcaf3756b255bfbd119bdd0482c6cfa7047e36e30be67e00f5078a30222ff5822bdeeb62e7f6f3d3faebc63275ce88649dd4524f077172cb3df06d4de0aa401264a7aeb5f33113f5e8ea3a9698d45a43d8febba7cbf6ea9b9e188616ba2f8a598790b5fc5aa587f955f0ba6350f3301ee0223bbf33e1e22eb15bbe20c220e993fd0da8721303d2ad6e7d1d8eb5f03fc72f1edb46750c087af1a2fd47c26fa72d2bcfb0fb2e8f52cc3d313ffc1d215d86f1ecf4efd1c9b53d04a0cc90775f680c5cb3e3bb709b96a6583281e64e40c724733390a476f9f09ada98655a4e2c336bd2b73ae1de30b2a0a3f86379d1f681b25a19f7157178c42d53164dc6165f974bf39a0d7c3a6f6c094d0ee3904120e0534c3b69108c66fbc619d4c3f20e1f68b04c99490e74111f71dc98b6f0bd3cd0e8a84515f5ffa7a4ea490a984c9007a59649f5799cba9dfa38ad91d9850ff9cda43cbcff00ab5a4c5af090e4653d47df791882285addd90fb30cc936263eb1db4ed2828a3966af81dadbd3cf0bb39397d51f8ba38fdf79246f2e0ab160fe79d277261b892d876f30275ddc7395161653640c1b57ca817545efa6874e240b4f5850926504a0dfe3cb13164563ff7144d4164e6d370fe8f84a59a5b9122705bd95c967224b2b3eb58033738836775c6223719565780c7b8f59af7a12f6372d95a36ba924709d31980b877dd940e1e36d771a8adee1cae347779562152602904d81cf32d75b7c297c0d34a0c342dc881c0025ef95bc5e3835fe204fa0b372d64bf5eda21dd779c3ba549dab41b010e26df1dd31020df8caf72dffd3d69b485ec79d019599e814c54d3c34efec26b0256ac481a074387f5739dc88900bcbca49233e619a11b2b404e7187e6eebbd2673c7f6751adcb9d329c15bd547571e365b0af278e04dfb648dafe20f509c1c0bfa09de650f1c749163cb4e58275b8defd5ef498d24f0ab0a0ba1bda0b8956f402e5d5f565a19aa5f23fc377d172c29e3904b154a8f9c18ecec17f0117ad4cd9159d141c99beb7ee6abdce3539e6b8f10a2c1f1fd9cb6827196b4ca119efdb7507ec835325c76979106f8f17b729319e1038e95525a73b1da9b7c5798ed4545326ac8230e113d99f460e89563be98535170aae83e6fca735fe2f46d27e1b46967d28c53601e340dec72aa672c2f8ecced47be3dcb26904ce338e40298c2aa08e38d6f63a82618ef97ae55cb0afa1390404677c876157585f36264716068d5f4672371d746c9ffeb8674c853c7b433835ae61774346763bdabd4f3404cff3368fc8feec99c5e8ce7e1f32e577d90e6ada439238c2999f65ccc48c52e8bc3dfcb82bb32cf82948fb1776b0ce4a2aa7c08056cff2290f6e8fc7c77c45110e5a717ac10892455ee146d247f91972d6b0286639a70cd138d4877727740f2c322e2106942ef4fc42095c1ba5e10de1e3392905227bf46ce215ea762ab557c1e4c828ae34af0299fd96ebe33aa2a7a08b75934b9c8e4790345fba4d3bd24d485dd3deebb9bc1de6349f16a1be83ed92553f7120a3da7d6fdf5d947482303e7837306133fc3f6e1d4a318f7f3f7e04546763bf403b75653ea0d8cd1c2eca22984a52c17803f48c87d5b7a4f379a2d538163c4a37cab160371c0a00bd355a1ed111d17eb5758b80cbf0651ebc0c6516757f2fcd58f0131f03c1a661c12bbd959c21ddaf191993ca729efee957ed266ee24e83871c5e88133e349d7fecf7c28655d6171e1e87e7051737b897a4a6b69f285b7a38977175067e9b16bcb198a769a537bf1b018bfe73c95813ea621bae17539747a1e06e9c72511298e9b445752d90b3f0c67954ad0007a7f2bc9ced37e5179d0b228538f6f9f62d66ed0abc1b121bb2a859f683a28bd0e85337fce15fbb453517878ad18a365683b763d55508cc1fe4a0c8019aa31803518775395648fd8dc28957dc9d5ac31e5cf56592a672956adfd1765f5db5ee76b8149057e17b2d376597085f2b5f3e1726d7b22756b79560775cba2776787a48466775951a7086d550b3460bcb8262473b0cba27dabc38c9f67792fd2872c80dd9c0f398afc6302f7bc14080ca18bcced797dc07a5deab5600be658d344fbda53ea3c88ba71e9a7e9430881c7422b58cab81df18bdcd8ff6ade1b412a69567368e4d811e21bef5d58ece2340c8912bdcc052da09af3a6b5dbafd2fa2390636a86b813cf6a1c146e8e71ac1d65336112cf88dabfc9a5933e288081c64de4be63989c8bab5fe7e34390ab3ff5b51ea1fafa09bde74ec1ba5b49d34621230eeeb5c269723caf81d943a2d91dd5a4691ab4499690bc8868d9ff186e4d860326cd9d47e6502c1d43a82f3fcef4c7394be1fcbff6e3fb53a688ed94ef640c0eccdf95f6e97589c546223ac048837f9bbe58cee7f86a86142514a8e465f99683e32e65d97782f9820fffd6a72501cf0eacde78b7029d2d99a97d87dae4be8fd3c35c854480131fc8ff6b0c033fa333482d3c1978a08e6dd2b5be4d75d963c5d9cc4e60303c74e86eb97e02580a1fb8051f00ddb6279577f881677882ed7e53ac70870957c371d7f7362875aaecb94e122d4c4085efddc3283c51cfb0b1d050128b62704fcd349c88912fb9d222ecf4da8c877c63dbe349df879639dae64a5e24a5156effa2b186c4969aeb81041c8dfdba056c4a01eeaf46e959ed5b160d81a5348cd47357eac6982f53faed55d3df8064fb390dca7b6c2f177cdb57d65be50475160192e6cbafaf9208518e0a056002d40103af36b7884df0f2079fd95587e3ede6cd788109faaf70b338a07e5516ac8952574b2280374732fe02f53a2094c933363339f2887e2a947ea12fccdd974aa434fe8099e8cda3a840be36de7e2e95c77f302cd6d52d387d02d5d3f5b9be61f34e2141e23f0cef46ad51aa53cca08330d5573fd31089ad40612ede9d4714a6828783226a83f2d812b1d273f0ea377b9c66b3c4f62247a8fa46b990a37cfe2969356eb539c9833f61a1ff19ce00fbda40ca7fc5095291a84db3503e1ea9aaf109e7d50d0fe185436f501063e0dfa35d4290f42837e271299169b4443fbbeb695ad8f92f96ecf0bed9d8a480ecf86ee844b409bfe6dfb38003bd5f9274f891f4bc65eab481ac77032aaaac9e53a59ed45e6de5a291a48407ab2a008ea7b24e660af3e216e716fdcf8b87e61b620c5e9d905f2e4ccd2de1a571b1ab3a327774b779b5918bcf827f05540604210bd5ef68151eb57afa3fea6632f42d7871b16cceca64881154162e6d0bf61cd8cf03411dd20dfd6ad2842d7599b4574380a893c765e2231e0cd50a92d2f39646906e2e95364761ca4426a7638656ea379b54f78d728cc17e440df72a159dd1ff234c25e224bee5323555ad381c841292442e6fd03b59674fd17ad81aaf7befe9ffd3d38ebdd839ce5b6aad76b073682b5f13127680d98c8e10796e5326097cd066d1774238eed1ebd450d22b8c832112cc5300d3b3ffbcd0977c6979071e1aa6f13faba1d0bc395edfdda4a285781149c510652be20b3b552da07bb3d9a7361fa9edb4689eae94a09e4178e083aa2fdc85da2d354716b90f195aab29786fb7ceb7578ce0b83101fa26c5dae3ae4284cd72531796f833e83b0bf4a61286953ee601254db5248ea82e74bf3e1e17372efd1e08de56aa727801456c909ce858b249923aa94092d2d2e66d5ca86450434671a4599d3f7c885c544dd6799890f3d4580c565cb3c183514f06d8686bc99adb0797e3f092b7e7c72792128f5a4fd9ca70967ae4d802268f48e5dee6dbd0558406abf9dbdf046121628d6650aa6337374859586c67cc3b1cb45457fedfb0435a1831eb7ac28257d17f19962c401cc7b5dea2cef3dda7b6cfe38d2bb90df530df3f3356e00e6b12855a85dd27d34959c71671a2dd22013cdd8ea1f1e612df55cdc907a381ed48fbc4b1e7d602e1c922ce684d61705ab47c68b13ae2cbdaf466af023a263da9a7a2f19f6962a90d61223f211cd77cd07bd263cf8422ea036b725bec04fdad9f68fae3ed8e53327cea55e75dbe91381e527bdc99e053a7586b935a6817ae0fb70bc19c9d32f12fd90529f0f060029cf4d863ad5b0151ffd269204c054aad7e9dc8bfad630bc4bd5e014d164a0d19e23e2cd7a3751e442cbaa68f87d960fa84199895d9611d2df7489a7061b6623280bb1863715997c3b2176c9d551d82c2e9f1288805a33c857cfbba5f89e4f28558a5f92341f1d932ba0c05a367756e04053a3b939b8f31b2232889ef10f02e8960f9cb269f085dce575c8c9acb84f765aebb0f9f6aed11b0b7ea1e1ab58ff01ebc7f51ca3e6741fadd9350a30182bfb1aa6af82341a34d1a978b4e7e3e197e037610bb322c13ce1fc4e262decd7a9147a4f74badbb8c5e1488a48a83a7bfc57c75e1eeefc27fc61d81583661795f177b21be5407364cd337cec7623c5530929a38944fd1f67806db9b585a227670dcdf725a4313652672e4fa5139f2f2e3cdb122c65bbeb464f23c970ceb6c547f6c3d684f57323779d2c53ba20fcf2b731ac226d560a462c8628a25db11ac2c2b849480355c5d02db49276b57328d88f3f47f49f66ef938d1527e8e6477c761f262f4b2841032a02eb13d3fac62f362915f4f2b1adf8871207290c4e8e6fc6e83f61f63f843a9277b91af64202144d7216ebb0659ca1b7a098563659b1678269e8358e4a3b81c11ce71511725154c8419c6ecc4d38635d313c76e75bdfc7b02175e1886043b120a9a9028714dd2bc397cd848d4e5990aadea592413a9b8caa3a36e5143e40310e2eb6eee8eeae49634035d8b298f7affa59e475971c33720ce7e18e0cb990e61c41b691390c166ddd4ad29d258fe53e69af1c3878f0910d563949b5f97a2a50142a279d69e7561aca9320f306bc4307def26118ff3b6ab0b1b83f01e694c30fe7a5e21a5c70ca48d67a5f53d8af3dfae3bc045f8542f1635e321fb7743b0c1b73a12b018da9db0db76caf228737c1e76875b0b20b57e2cb6abfd1e54e17b84132fda5a71f90004af511407b1f71d4f5d5439e725089f19b2b0905251f12326a6d6883616a1f1d7ddc61f9a7f13e9adf184443aaab5430390a38259df3973b70b69cb19a9f2d9a25c23e8aba4eb98da202185e9a47ef4764a967cc118edca27b886e832912d05842b0c780b44be4f4774efbac149dd0b76054e8f74a38499808e900a18a636ff984497eff01cc05c96f8d626c4abb1200e50b0729f4e8d53687c7bb7c4d245c3d87081d91c966361f1b0195faa51fc8d4dbface8d803213d31408b8a203d2bb9baa1b4b0375efd4e814f896fe24b39ce978a4603e28df06bcb1af954a196cf7cfdf620dc9e3162b2d0c4207dcd109a63de9e80fee0786d12e221ca262dbdb3262fd88fe0178b4a463a9c8ac2fb81e7fa40655b10957caf3fd9c2c7f3da4ddb796780801d0abbb9b58e908edcb4500bb1199a09271524ad7c3290cde5d4a78f0464b72d793955fac798ff7076fdb26480bcaabdf1d359689a54326fbfce95cfbcc89ef901405854e79a3e3f55e8d52b1a7990901be2d1bb9055c7c2eeb7d4ca482dd976beae938c0aa11934883acaf1adbf804334a3eab78c399f4e48e3cca1e2589f38ec0af499b62b6faa80407adbdecd4fef20a94424736289ee7200de5b764d32b43ee45f34174e66bc97d35926634c1e7f435b952a5a66849bfd96e38017fc2536483cbf402ef18763308abfec</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+          
+            <div class='article_footer'>
+              
+                
+  
+    
+    
+
+
+
+  
+
+  
+    
+    
+
+
+
+  
+
+  
+    
+    
+
+<section class="widget copyright  desktop mobile">
+  <div class='content'>
+    
+      <blockquote>
+        
+          
+            <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
+
+          
+        
+          
+            <p>本文永久链接是：<a href=https://www.micdz.cn/article/2021-resolution/>https://www.micdz.cn/article/2021-resolution/</a></p>
+          
+        
+      </blockquote>
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+<section class="widget qrcode  desktop mobile">
+  
+
+  <div class='content article-entry'>
+    
+  </div>
+</section>
+
+  
+
+  
+
+
+              
+            </div>
+          
+        </div>
+        
+          
+
+
+  <section class='meta' id="footer-meta">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-02-27T11:38:38+00:00">
+  <a class='notlink'>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2021年2月27日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+
+        
+      
+        
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.micdz.cn/article/2021-resolution/&title=2020回顾 & 2021展望 - MicDZ's blog&summary=这是一篇被加密的文章，博主不会提供密码"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.micdz.cn/article/2021-resolution/&title=2020回顾 & 2021展望 - MicDZ's blog&summary=这是一篇被加密的文章，博主不会提供密码"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.micdz.cn/article/2021-resolution/&title=2020回顾 & 2021展望 - MicDZ's blog&summary=这是一篇被加密的文章，博主不会提供密码"
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png">
+          
+        </a>
+      
+    
+      
+        
+        <div class='hoverbox'>
+          <a><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/wechat.png"></a>
+          <div class='target'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAAAAACi5bZQAAAC/0lEQVR42u3aUXKDMAwE0Nz/0u0F2rFXEgkmz39tAOPHz46k14/153ohAAMGDBgwYI6BeRXXvw9eXN+9f/Wc7nnAgAEDBgwYMOfBbAegzReqXr/aL70+PQ8YMGDAgAED5lyYNKCt7k8POhUwy+cBAwYMGDBgwHwdTPUgKfDU+4EBAwYMGDBgwFQBqgdPC2NgwIABAwYMmO+BqQaxbqMsfV53HzBgwIABAwbMc2DSlTbQ3v13+TxgwIABAwYMmGNgumuqcNUtcI2dBwwYMGDAgAFzDMzUIFC1cVYtgKUNu+33AAMGDBgwYMA8FiYNYrvBL22cVQeKxieqwIABAwYMGDAfh5luqFUbXl2I9H2XAQ8MGDBgwIABc3uYbkEoDYi7gW86cC73BQMGDBgwYMAcAzPV0JpqiFU/WLfhBwYMGDBgwIB5PkzawJoqPKUFsnSwCQwYMGDAgAHzXJhuwWq6AFUdGBovVIEBAwYMGDBgPgZTLfBUG2ndgDf1IeLBITBgwIABAwbM7WCqQWr397TQ9O6G23ahCgwYMGDAgAFze5g0oKUbTwXFbgBsN9zAgAEDBgwYMLeBmQpi1YCXBsapYLksVIEBAwYMGDBgbguzG4yqAzxpAWn6A6XnAwMGDBgwYMCcA9M9aHfg5+qG3u6+YMCAAQMGDJjzYMoPuDjITRXE0sIXGDBgwIABA+Y8mN2gtRvwqoWu6kDT2P/BgAEDBgwYMMfCXDWYUw1u6XPTwLkd8MCAAQMGDBgwx8CkhaTq86pA3QZfOeCBAQMGDBgwYG4Dc3UBqTrgc9Ug0nbAAwMGDBgwYMDcHubqwJTuU71/Nygu9wEDBgwYMGDAHAeTBrpqg20KrgsKBgwYMGDAgHkeTDVAdRtm3UGjboAEAwYMGDBgwICZHjBK728HRzBgwIABAwbM18F0g9nlB/5UoQoMGDBgwIAB8zaYtOHWLViljbjue4EBAwYMGDBgngdTbVylsGmQq4KVgyMYMGDAgAED5hgYCwwYMGDAgAFz2PoFh3Xo0uV2sywAAAAASUVORK5CYII=">
+          </div>
+        </div>
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+          <div class="prev-next">
+            
+              <a class='prev' href='/article/thoughts-of-a-biological-problem/'>
+                <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>配子一定比例致死的人类遗传病计算问题</p>
+                <p class='content'>半年没更博，文化课战士回来报道。
+
+
+ 前言
+老师同学们好！
+
+            本人高中生，有关生物的见识仅局限高中范围，本文有关专有用语可能不够准确。本文旨在分享我对此前期考复习前的一...</p>
+              </a>
+            
+            
+              <a class='next' href='/article/windows10-ubuntu20/'>
+                <p class='title'>windows10的Ubuntu子系统<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+                <p class='content'>在win10上运行最新的Ubuntu终端。
+
+很早时候windows就发布了其可以在win10运行的Ubuntu子系统。
+
+总的来说这个子系统与一个普通的Ubuntu没有区别。
+这里总结一下子系...</p>
+              </a>
+            
+          </div>
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+
+
+
+  <article class="post white-box reveal comments shadow">
+    <section class="article typo">
+      <p ct><i class='fas fa-comments'></i> 评论</p>
+      
+      
+      
+      
+      
+      
+        <section id="comments">
+          <div id="valine_container" class="valine_thread">
+            <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+          </div>
+        </section>
+      
+      
+    </section>
+  </article>
+
+
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+
+
+  <script>
+    window.subData = {
+      title: '2020回顾 & 2021展望',
+      tools: true
+    }
+  </script>
+
+
+</div>
+<aside class='l_side'>
+  
+  
+
+  
+    
+    
+
+
+
+  
+
+
+</aside>
+
+
+  
+  <footer class="clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+
+
+        </div>
+      
+    
+      
+        <br>
+        <div class="social-wrapper">
+          
+            
+              <a href="mailto:me@micdz.cn"
+                class="social fas fa-envelope flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://github.com/micdz"
+                class="social fab fa-github flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://www.luogu.com.cn/user/54373"
+                class="social fas fa-code flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://www.skypixel.com/users/zhouhan321"
+                class="social fas fa-helicopter flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://zh.wikipedia.org/wiki/User:MicDZ"
+                class="social fab fa-wikipedia-w flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+        </div>
+      
+    
+      
+        <div><p>博客内容遵循 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+</div>
+      
+    
+      
+        本站使用
+        <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+        作为主题，总访问量为
+          <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+          次
+        
+      
+    
+      
+        <div class='copyright'>
+        <p><a href="https://www.micdz.cn">Copyright © 2018-2021 MicDZ</a></p>
+
+        </div>
+      
+    
+  </footer>
+
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
+
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      ScrollReveal().reveal('.l_main .reveal', {
+        distance: '8px',
+        duration: '800',
+        interval: '100',
+        scale: '1'
+      });
+    });
+  </script>
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"></script>
+
+  
+  <script>
+  var GUEST_INFO = ['nick','mail','link'];
+  var meta = 'nick,mail,link'.split(',').filter(function(item){
+    return GUEST_INFO.indexOf(item) > -1
+  });
+  var REQUIRED_FIELDS = ['nick','mail','link'];
+  var requiredFields = 'nick,mail'.split(',').filter(function(item){
+    return REQUIRED_FIELDS.indexOf(item) > -1
+  });
+  var valine = new Valine();
+  function emoji(path, idx, ext) {
+      return path + "/" + path + "-" + idx + "." + ext;
+  }
+  var emojiMaps = {};
+  for (var i = 1; i <= 54; i++) {
+    emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+  }
+  for (var i = 1; i <= 101; i++) {
+    emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+  }
+  for (var i = 1; i <= 116; i++) {
+    emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+  }
+  for (var i = 1; i <= 125; i++) {
+    emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+  }
+  for (var i = 1; i <= 4; i++) {
+    emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+  }
+  valine.init({
+    el: '#valine_container',
+    meta: meta,
+    
+    appId: "XJNQyNFxuNtUzhHW1bEBRegh-MdYXbMMI",
+    appKey: "sW2nMb4Ru4LgVJOEPnWufrU0",
+    placeholder: "快来评论吧~",
+    pageSize:'10',
+    avatar:'robohash',
+    lang:'zh-cn',
+    visitor: 'true',
+    highlight: 'true',
+    mathJax: 'false',
+    enableQQ: 'true',
+    requiredFields: requiredFields,
+    emojiCDN: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/',
+    emojiMaps: emojiMaps
+  })
+  </script>
+
+
+
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.6.5/js/search.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
+
+
+
+<!-- 复制 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('fa-copy');
+        $icon.addClass('fa-check-circle');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('fa-check-circle');
+          $icon.addClass('fa-copy');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('fa-copy');
+        $icon.addClass('fa-times-circle');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('fa-times-circle');
+          $icon.addClass('fa-copy');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+
+
+
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  function pjax_fancybox() {
+    $(".article-entry").find("img").not('.inline').not('a img').each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 标准 markdown 描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".article-entry").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  $(function () {
+    pjax_fancybox();
+  });
+</script>
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>

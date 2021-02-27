@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MicDZ&#39;s blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.micdz.cn/"/>
+  <updated>2021-02-27T11:38:38.466Z</updated>
+  <id>https://www.micdz.cn/</id>
+  
+  <author>
+    <name>MicDZ</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>配子一定比例致死的人类遗传病计算问题</title>
+    <link href="https://www.micdz.cn/article/thoughts-of-a-biological-problem/"/>
+    <id>https://www.micdz.cn/article/thoughts-of-a-biological-problem/</id>
+    <published>2021-02-04T18:41:20.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;半年没更博，文化课战士回来报道。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Others" scheme="https://www.micdz.cn/categories/Others/"/>
+    
+    
+      <category term="生物" scheme="https://www.micdz.cn/tags/%E7%94%9F%E7%89%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020回顾 &amp; 2021展望</title>
+    <link href="https://www.micdz.cn/article/2021-resolution/"/>
+    <id>https://www.micdz.cn/article/2021-resolution/</id>
+    <published>2021-01-01T00:00:01.000Z</published>
+    <updated>2021-02-27T11:38:38.462Z</updated>
+    
+    <summary type="html">
+    
+      这是一篇被加密的文章，博主不会提供密码
+    
+    </summary>
+    
+    
+      <category term="Review &amp; Resoultion" scheme="https://www.micdz.cn/categories/Review-Resoultion/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>windows10的Ubuntu子系统</title>
+    <link href="https://www.micdz.cn/article/windows10-ubuntu20/"/>
+    <id>https://www.micdz.cn/article/windows10-ubuntu20/</id>
+    <published>2020-05-10T18:53:13.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在win10上运行最新的Ubuntu终端。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="ubuntu" scheme="https://www.micdz.cn/tags/ubuntu/"/>
+    
+      <category term="虚拟机" scheme="https://www.micdz.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【51nod2014】小朋友的笑话 题解</title>
+    <link href="https://www.micdz.cn/article/51nod2014-solution/"/>
+    <id>https://www.micdz.cn/article/51nod2014-solution/</id>
+    <published>2020-04-04T15:24:47.000Z</published>
+    <updated>2021-02-27T11:38:38.462Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.51nod.com/Challenge/Problem.html#problemId=2014&quot;&gt;51nod2014&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【51nod1444】破坏道路 题解</title>
+    <link href="https://www.micdz.cn/article/51nod1444-solution/"/>
+    <id>https://www.micdz.cn/article/51nod1444-solution/</id>
+    <published>2020-03-29T16:06:54.000Z</published>
+    <updated>2021-02-27T11:38:38.462Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.51nod.com/Challenge/Problem.html#problemId=1444&quot;&gt;51nod1444&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="图论" scheme="https://www.micdz.cn/tags/%E5%9B%BE%E8%AE%BA/"/>
+    
+      <category term="最短路" scheme="https://www.micdz.cn/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【51nod1331】狭窄的通道 题解</title>
+    <link href="https://www.micdz.cn/article/51nod1331-solution/"/>
+    <id>https://www.micdz.cn/article/51nod1331-solution/</id>
+    <published>2020-03-29T14:58:11.000Z</published>
+    <updated>2021-02-27T11:38:38.462Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.51nod.com/Challenge/Problem.html#problemId=1331&quot;&gt;51nod1331&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【51nod1564】区间的价值 题解</title>
+    <link href="https://www.micdz.cn/article/51nod1564-solution/"/>
+    <id>https://www.micdz.cn/article/51nod1564-solution/</id>
+    <published>2020-03-29T14:22:04.000Z</published>
+    <updated>2021-02-27T11:38:38.462Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.51nod.com/Challenge/Problem.html#problemId=1564&quot;&gt;51nod1564&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>莫比乌斯反演学习笔记</title>
+    <link href="https://www.micdz.cn/article/mobius/"/>
+    <id>https://www.micdz.cn/article/mobius/</id>
+    <published>2020-03-21T14:49:53.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      这是一篇被加密的文章，博主不会提供密码
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="学习笔记" scheme="https://www.micdz.cn/categories/OI/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="数学" scheme="https://www.micdz.cn/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="学习笔记" scheme="https://www.micdz.cn/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello, word!</title>
+    <link href="https://www.micdz.cn/article/Hello-World/"/>
+    <id>https://www.micdz.cn/article/Hello-World/</id>
+    <published>2020-02-23T18:30:39.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;欢迎来到MicDZ’s blog。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Others" scheme="https://www.micdz.cn/categories/Others/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【JSOI2013】侦探jyy 题解</title>
+    <link href="https://www.micdz.cn/article/JSOI2013-zhentanjyy-solution/"/>
+    <id>https://www.micdz.cn/article/JSOI2013-zhentanjyy-solution/</id>
+    <published>2020-02-03T09:35:43.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.lydsy.com/JudgeOnline/problem.php?id=4478&quot;&gt;JSOI2013&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="贪心" scheme="https://www.micdz.cn/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【JSOI2011】棒棒糖 题解</title>
+    <link href="https://www.micdz.cn/article/JSOI2011-bangbangtang-solution/"/>
+    <id>https://www.micdz.cn/article/JSOI2011-bangbangtang-solution/</id>
+    <published>2020-02-01T16:47:00.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.lydsy.com/JudgeOnline/problem.php?id=5178&quot;&gt;JSOI2011&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="可持久化" scheme="https://www.micdz.cn/tags/%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96/"/>
+    
+      <category term="线段树" scheme="https://www.micdz.cn/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>可持久化线段树学习笔记</title>
+    <link href="https://www.micdz.cn/article/persistent-seg/"/>
+    <id>https://www.micdz.cn/article/persistent-seg/</id>
+    <published>2020-01-19T16:19:03.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主席树又称可持久化线段树&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="学习笔记" scheme="https://www.micdz.cn/categories/OI/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="可持久化" scheme="https://www.micdz.cn/tags/%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96/"/>
+    
+      <category term="线段树" scheme="https://www.micdz.cn/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+      <category term="学习笔记" scheme="https://www.micdz.cn/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>组合容斥计数及反演学习笔记</title>
+    <link href="https://www.micdz.cn/article/combination/"/>
+    <id>https://www.micdz.cn/article/combination/</id>
+    <published>2020-01-19T11:05:46.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      还没写完，这里面什么都没有
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="学习笔记" scheme="https://www.micdz.cn/categories/OI/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="数学" scheme="https://www.micdz.cn/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="组合" scheme="https://www.micdz.cn/tags/%E7%BB%84%E5%90%88/"/>
+    
+      <category term="容斥" scheme="https://www.micdz.cn/tags/%E5%AE%B9%E6%96%A5/"/>
+    
+      <category term="学习笔记" scheme="https://www.micdz.cn/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019回顾 &amp; 2020展望</title>
+    <link href="https://www.micdz.cn/article/2020-resolution/"/>
+    <id>https://www.micdz.cn/article/2020-resolution/</id>
+    <published>2020-01-01T00:00:01.000Z</published>
+    <updated>2021-02-27T11:38:38.462Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;语文不好，就当写篇作文练练笔吧&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【tyvj1061】Mobile Service 题解</title>
+    <link href="https://www.micdz.cn/article/tyvj1061-solution/"/>
+    <id>https://www.micdz.cn/article/tyvj1061-solution/</id>
+    <published>2019-12-10T12:48:18.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.joyoi.cn/problem/tyvj-1061&quot;&gt;tyvj1061&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="动态规划" scheme="https://www.micdz.cn/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每周学习总结</title>
+    <link href="https://www.micdz.cn/article/weekly/"/>
+    <id>https://www.micdz.cn/article/weekly/</id>
+    <published>2019-11-30T12:45:46.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每周学习总结&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+    
+      <category term="总结" scheme="https://www.micdz.cn/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【POI2017】flappybird 题解</title>
+    <link href="https://www.micdz.cn/article/POI2017-flappybird-solution/"/>
+    <id>https://www.micdz.cn/article/POI2017-flappybird-solution/</id>
+    <published>2019-11-08T12:45:00.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.lydsy.com/JudgeOnline/problem.php?id=4723&quot;&gt;POI&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="贪心" scheme="https://www.micdz.cn/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【NOIP2015】运输计划 题解</title>
+    <link href="https://www.micdz.cn/article/NOIP2015-yunshujihua-solution/"/>
+    <id>https://www.micdz.cn/article/NOIP2015-yunshujihua-solution/</id>
+    <published>2019-11-07T23:26:55.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problem/P2680&quot;&gt;NOIP2015&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="LCA" scheme="https://www.micdz.cn/tags/LCA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【nowcoder-1103A】复读数组 题解</title>
+    <link href="https://www.micdz.cn/article/nowcoder-1103A-solution/"/>
+    <id>https://www.micdz.cn/article/nowcoder-1103A-solution/</id>
+    <published>2019-11-06T23:07:21.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://ac.nowcoder.com/acm/contest/1103&quot;&gt;nowcoder-1103&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CSP-S提高组赛前集训营4 A题&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="数学" scheme="https://www.micdz.cn/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【JXOI2018】游戏 题解</title>
+    <link href="https://www.micdz.cn/article/JXOI2018-youxi-solution/"/>
+    <id>https://www.micdz.cn/article/JXOI2018-youxi-solution/</id>
+    <published>2019-11-03T22:55:49.000Z</published>
+    <updated>2021-02-27T11:38:38.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.luogu.org/problem/P4562&quot;&gt;JXOI2018&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="OI" scheme="https://www.micdz.cn/categories/OI/"/>
+    
+      <category term="题解" scheme="https://www.micdz.cn/categories/OI/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.micdz.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="数学" scheme="https://www.micdz.cn/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="组合" scheme="https://www.micdz.cn/tags/%E7%BB%84%E5%90%88/"/>
+    
+  </entry>
+  
+</feed>
